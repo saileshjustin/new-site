@@ -265,10 +265,16 @@ textarea {
 ul, #mylist , li{
   text-align: center;
   border : 1px solid black;
+  margin : 5px;
 }
  h1{
-   background-color: black;
+  background-color: black;
   color: rgb(252, 5, 5);
   text-align: center;
-  border-radius: 20px;
+  border-radius: 8px;
  }
+#mylist,h1{
+  margin-bottom : 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}

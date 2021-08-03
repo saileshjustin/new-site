@@ -24,6 +24,7 @@ db.collection("actors").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
         console.log(`${doc.id} => ${JSON.stringify(doc.data())}`);
         const mylist = document.getElementById('mylist');
+        // mylist.classList.add('list-group-flush');
         const list = document.createElement('li');
         list.classList.add('list-group-item');
         list.classList.add('list-group-item-dark');
